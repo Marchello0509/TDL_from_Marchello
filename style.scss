@@ -1,0 +1,202 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+body {
+    background: url('./img/1681940910_turizm-pibig-info-p-gori-more-oboi-turizm-krasivo-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    @include FlexElement(center,center);
+    height: 100vh;
+    column-gap: 50px;
+    &_forblock1 {
+       
+        &_block1 {
+            width: 350px;
+            height: 465px;    
+            border-radius: 5px;
+            background: #000;
+            &_logo {
+                display: flex;
+                &_text {
+                    width: 111px;
+                    height: 29px;
+                    margin-top: 5px;
+                    &_p1 {
+                        color: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 9px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    &_p2 {
+                        color: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 100;
+                        line-height: normal;
+                    }
+                }
+            }
+            &_forinputs {
+                @include ForBlocks(center);
+                &_inputs {
+                    width: 278px;
+                    height: 372px;
+                    margin-top: 15px;    
+                    &_p1 {
+                        color: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    &_input1 {
+                        width: 274px;
+                        height: 24px;        
+                        border-radius: 2px;
+                        background: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;    
+                        border: none;   
+                        margin-top: 6px;
+                    }
+                    &_p2 {
+                        color: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 13px;
+                    }
+                    &_input2 {
+                        width: 274px;
+                        padding-bottom: 200px;   
+                        border-radius: 2px;
+                        background: #FFF;
+                        font-family: Overpass Mono;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;    
+                        border: none;     
+                        margin-top: 6px;  
+                    }
+                    &_btn {
+                        margin-top: 24px;
+                        width: 278px;
+                        height: 37px;
+                        border-radius: 2px;
+                        background: #ffffff;
+                        color: #000000;
+                        transition-duration: 0.6s;
+                        font-family: Overpass Mono;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        cursor: pointer;
+                        border: none;
+                        &:hover {
+                            background: #8B8B8B;
+                            color: #ffffff;
+                            transition-duration: 0.6s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &_forblock2 {
+        &_block2 {
+            width: 300px;
+            height: 700px;
+            border-radius: 5px;
+            border: 2px solid #000;
+            background: rgba(255, 0, 0, 0.50);
+            backdrop-filter: blur(2.5px);         
+            &_block {
+                @include FlexElement(center,center);
+                width: 300px;
+                height: 95px;
+                border-radius: 2px;
+                background: #000;
+                &_p {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;         
+                }
+            }
+        }
+    }
+    &_forblock3 {
+        &_block3 {
+            width: 300px;
+            height: 700px;
+            border-radius: 5px;
+            border: 2px solid #000;
+            background: rgba(255, 153, 0, 0.50);
+            backdrop-filter: blur(2.5px);      
+            &_block {
+                @include FlexElement(center,center);
+                width: 300px;
+                height: 95px;
+                border-radius: 2px;
+                background: #000;
+                &_p {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;         
+                }
+            }
+        }
+    }
+    &_forblock4 {
+        &_block4 {
+            width: 300px;
+            height: 700px;
+            border-radius: 5px;
+            border: 2px solid #000;
+            background: rgba(36, 255, 0, 0.50);
+            backdrop-filter: blur(2.5px);      
+            &_block {
+                @include FlexElement(center,center);
+                width: 300px;
+                height: 95px;
+                border-radius: 2px;
+                background: #000;
+                &_p {
+                    color: #FFF;
+                    font-family: Overpass Mono;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;         
+                }
+            }
+        }
+    }
+}
