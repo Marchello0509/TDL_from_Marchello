@@ -40,35 +40,71 @@
                 <div class="main_forblock1_block1_forinputs">
                     <div class="main_forblock1_block1_forinputs_inputs">
                         <p class="main_forblock1_block1_forinputs_inputs_p1">Name list:</p>
-                        <input class="main_forblock1_block1_forinputs_inputs_input1" type="text" placeholder="Name list">
+                        <input id="inpName" class="main_forblock1_block1_forinputs_inputs_input1" type="text" placeholder="Name list">
                         <p class="main_forblock1_block1_forinputs_inputs_p2">Text list:</p>
-                        <textarea class="main_forblock1_block1_forinputs_inputs_input2"  placeholder="Text list"></textarea>
-                        <button class="main_forblock1_block1_forinputs_inputs_btn">Pin</button>
+                        <textarea id="inpText" class="main_forblock1_block1_forinputs_inputs_input2"  placeholder="Text list"></textarea>
+                        <button id="btnPin" class="main_forblock1_block1_forinputs_inputs_btn">Pin</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="main_forblock2">
-            <div class="main_forblock2_block2">
+            <div id="block2" class="main_forblock2_block2">
                 <div class="main_forblock2_block2_block">
                     <p class="main_forblock2_block2_block_p">To-do:</p>
+                </div>
+                <div class="main_forblock2_block2_forbl2">
+                    <div class="main_forblock2_block2_forbl2_bl2">
+                        <button id="btnDelete" class="main_forblock2_block2_forbl2_bl2_btn2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M7 7L25 25" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7 25L25 7" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <p class="main_forblock2_block2_forbl2_bl2_p1">Name list:</p>
+                        <p class="main_forblock2_block2_forbl2_bl2_p2">Js</p>
+                        <p class="main_forblock2_block2_forbl2_bl2_p3">Text list:</p>
+                        <p class="main_forblock2_block2_forbl2_bl2_p4">Js</p>
+                        <button id="btnNext btnNextInProgress"  class="main_forblock2_block2_forbl2_bl2_btn">Next</button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="main_forblock3">
-            <div class="main_forblock3_block3">
+            <div id="block3" class="main_forblock3_block3">
                 <div class="main_forblock3_block3_block">
                     <p class="main_forblock3_block3_block_p">In progress:</p>
                 </div>
             </div>
         </div>
         <div class="main_forblock4">
-            <div class="main_forblock4_block4">
+            <div id="block4" class="main_forblock4_block4">
                 <div class="main_forblock4_block4_block">
                     <p class="main_forblock4_block4_block_p">Done:</p>
                 </div>
             </div>
         </div>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>
+
+
+
+<!--
+    <div class="main_forblock2_block2_forbl2">
+        div class="main_forblock2_block2_forbl2_bl2">
+            <button class="main_forblock2_block2_forbl2_bl2_btn2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M7 7L25 25" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 25L25 7" stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <p class="main_forblock2_block2_forbl2_bl2_p1">Name list:</p>
+            <p class="main_forblock2_block2_forbl2_bl2_p2">Example</p>
+            <p class="main_forblock2_block2_forbl2_bl2_p3">Text list:</p>
+            <p class="main_forblock2_block2_forbl2_bl2_p4">Example</p>
+            <button class="main_forblock2_block2_forbl2_bl2_btn">Next</button>
+        </div>
+    </div>
+-->

@@ -141,6 +141,80 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.main_forblock2_block2_forbl2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.main_forblock2_block2_forbl2_bl2 {
+  width: 280px;
+  height: 153px;
+  background: #FFF;
+}
+.main_forblock2_block2_forbl2_bl2_p1 {
+  color: #000;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
+}
+.main_forblock2_block2_forbl2_bl2_btn2 {
+  background: none;
+  border: none;
+  position: absolute;
+  margin-left: 240px;
+  cursor: pointer;
+}
+.main_forblock2_block2_forbl2_bl2_p2 {
+  color: #000;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
+}
+.main_forblock2_block2_forbl2_bl2_p3 {
+  color: #000;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
+}
+.main_forblock2_block2_forbl2_bl2_p4 {
+  color: #000;
+  font-family: Overpass Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 4px;
+}
+.main_forblock2_block2_forbl2_bl2_btn {
+  width: 280px;
+  height: 37px;
+  transition-duration: 0.6s;
+  background: #8B8B8B;
+  color: #ffffff;
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+  font-family: Overpass Mono;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_forblock2_block2_forbl2_bl2_btn:hover {
+  transition-duration: 0.6s;
+  background: #21871F;
+  color: #FFF;
+}
 .main_forblock3_block3 {
   width: 300px;
   height: 700px;
