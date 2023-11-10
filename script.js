@@ -38,10 +38,10 @@ htmlEl.btnPin.addEventListener('click', () => {
 
     const nextButton = newBlock.querySelector('#btnNext')
     nextButton.addEventListener('click', () => {
-        htmlEl.block2.removeChild(newBlock)
-        htmlEl.block3.appendChild(newBlock)
-        const inProgressNextButton = newBlock.querySelector('#btnNext')
-        inProgressNextButton.addEventListener('click', () => {
+    htmlEl.block2.removeChild(newBlock)
+    htmlEl.block3.appendChild(newBlock)
+    const inProgressNextButton = newBlock.querySelector('#btnNext')
+    inProgressNextButton.addEventListener('click', () => {
             htmlEl.block3.removeChild(newBlock)
             htmlEl.block4.appendChild(newBlock)
         })
